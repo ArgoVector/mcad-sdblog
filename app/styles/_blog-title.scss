@@ -1,3 +1,10 @@
 .blog-title {
-	background-color: yellow;
+	max-width: 12em;
+}
+h1 {
+	line-height: 1;
+	font-size: 1.8em;
+}
+span {
+	color: $color-logo-sdo;
 }
