@@ -1,6 +1,11 @@
 .css-module {
 	&> h2 {
 		font-family: monospace;
-		background-color: #eee;
+		background-color: $lighter-grey;
 	}
+	.sampleimg {
+    	display: block;
+		border: 1px solid $lighter-grey;
+	}
+	
 }
