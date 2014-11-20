@@ -1,3 +1,13 @@
 // main.scss
 
-@import "globals"
+@import "variables";
+@import "globals";
+
+// modules
+@import "css-module";
+@import "blog-title";
+@import "utilitynav";
+@import "mainnav";
+@import "blogpost";
+@import "blogfooter";
+@import "socmedia";
