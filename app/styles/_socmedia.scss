@@ -1,0 +1,12 @@
+.socmedia li {
+	list-style-type: none;
+	display: inline-block;
+	margin-right: 10px;
+}
+.socmedia a {
+	text-decoration: none;
+	color: $black;
+}
+.socmedia img {
+	width: 20px;
+}

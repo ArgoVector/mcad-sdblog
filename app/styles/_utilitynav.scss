@@ -1,6 +1,5 @@
 .utilitynav {
 	border: 1px solid red;
-	opacity: .4;
 	list-style-type:none;
 }
 .mcad {
@@ -9,7 +8,16 @@
 .utilitynav li {
 	margin-right: 30px;
 	display: inline-block;
+	line-height: 80%;
 }
 .utilitynav a {
+	opacity: .4;
 	text-decoration: none;
+	font-size: .8em;
+	font-weight: 500;
+	color: $black;
+}
+.utilitynav a:hover {
+	opacity: 1;
+	list-style-type:none;
 }
