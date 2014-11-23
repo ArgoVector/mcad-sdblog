@@ -2,18 +2,17 @@
 	border: 1px solid red;
 	height: 330px;
 	width: 300px;
-	background-image: url(http://mcadsustainabledesign.com/wp-content/uploads/2014/11/SKoehler_DWPHatch_sketch01-344x334.jpg);
+	background: linear-gradient(to bottom, rgba(31,255,173,0.83) 0%,rgba(31,255,173,0) 100%), url(http://mcadsustainabledesign.com/wp-content/uploads/2014/11/SKoehler_DWPHatch_sketch01-344x334.jpg);
 	background-repeat: no-repeat;
 	background-size: 344px;
 	background-position: center;
-	background-color: #03ff9f;
+	color: $white;
 }
 .blogpost h2 {
 	margin-left: 20px;
 	margin-top: 20px;
 	font-size: 1.8em;
 	text-decoration: none;
-	color: $white;
 }
 .postdate {
 	font-size: .9em;
@@ -28,4 +27,8 @@
 }
 .blogpost img {
 	border: 1px solid red;
+}
+.blogpost:hover {
+	background-image: none;
+	background-color: #03ff9f;
 }
