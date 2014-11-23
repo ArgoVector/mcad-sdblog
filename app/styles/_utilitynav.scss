@@ -1,5 +1,15 @@
 .utilitynav {
 	border: 1px solid red;
+	opacity: .4;
 	list-style-type:none;
+}
+.mcad {
+	width: 10%;
+}
+.utilitynav li {
+	margin-right: 30px;
 	display: inline-block;
+}
+.utilitynav a {
+	text-decoration: none;
 }
