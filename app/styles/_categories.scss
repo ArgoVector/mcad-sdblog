@@ -1,0 +1,42 @@
+.category-blue {
+	background: linear-gradient($blue, transparent);
+	&:hover {
+		background: $blue;
+	}
+}
+.category-red {
+	background: linear-gradient($red, transparent);
+	&:hover {
+		background: $red;
+	}
+}
+.category-pink {
+	background: linear-gradient($pink, transparent);
+	&:hover {
+		background: $pink;
+	}
+}
+.category-purple {
+	background: linear-gradient($purple, transparent);
+	&:hover {
+		background: $purple;
+	}
+}
+.category-yellow {
+	background: linear-gradient($yellow, transparent);
+	&:hover {
+		background: $yellow;
+	}
+}
+.category-orange {
+	background: linear-gradient($orange, transparent);
+	&:hover {
+		background: $orange;
+	}
+}
+.category-coral {
+	background: linear-gradient($coral, transparent);
+	&:hover {
+		background: $coral;
+	}
+}
