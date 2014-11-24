@@ -1,34 +1,32 @@
 .blogpost {
-	border: 1px solid red;
-	height: 330px;
-	width: 300px;
-	background: linear-gradient(to bottom, rgba(31,255,173,0.83) 0%,rgba(31,255,173,0) 100%), url(http://mcadsustainabledesign.com/wp-content/uploads/2014/11/SKoehler_DWPHatch_sketch01-344x334.jpg);
-	background-repeat: no-repeat;
-	background-size: 344px;
-	background-position: center;
+	border: 1px solid $lightgrey;
 	color: $white;
-}
-.blogpost h2 {
-	margin-left: 20px;
-	margin-top: 20px;
-	font-size: 1.8em;
-	text-decoration: none;
+  	margin: 0.5em;
+  	width: 30%;
+  	height: 300px;
+  	background: linear-gradient(turquoise, transparent);
 }
 .postdate {
 	font-size: .9em;
-	text-align: right;
+	float: right;
+	padding-right: 20px;
 	margin-top: -50px;
-	margin-right: 20px;
 }
 .category {
-	width: 100px;
 	font-size: .9em;
-	margin-left: 20px;
-}
-.blogpost img {
-	border: 1px solid red;
+	padding-left: 20px;
+	width: 50%;
 }
 .blogpost:hover {
-	background-image: none;
-	background-color: #03ff9f;
+    background: turquoise;
+}
+.blogpost img {
+  	margin-top: -120px;
+  	z-index: -1;
+}
+.blogpost h2 {
+	margin-top: -10px;
+	padding-left: 20px;
+    font-size: 1.8em;
+    line-height: 1.05em;
 }

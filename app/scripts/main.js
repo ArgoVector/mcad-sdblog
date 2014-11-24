@@ -1,1 +1,1 @@
-console.log('\'Allo \'Allo!');
+$('.blogpost').imagefill(); 
