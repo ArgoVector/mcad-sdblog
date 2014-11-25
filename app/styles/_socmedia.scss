@@ -1,12 +1,16 @@
-.socmedia li {
-	list-style-type: none;
-	display: inline-block;
-	margin-right: 10px;
-}
-.socmedia a {
-	text-decoration: none;
-	color: $black;
-}
-.socmedia a:hover {
-	color: #FF00CC;
+.socmedia {
+	margin-left: -40px;
+	li {
+		list-style-type: none;
+		display: inline-block;
+		margin-right: 10px;
+	}
+	a {
+		text-decoration: none;
+		color: $black;
+	}
+	a:hover {
+		color: #FF00CC;
+	}
+
 }
