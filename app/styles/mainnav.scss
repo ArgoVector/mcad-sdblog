@@ -1,7 +1,8 @@
 .main-nav {
 	font-weight: 500;
 	font-size: .9em;
-	margin-bottom: 5%;
+	margin-bottom: 2%;
+	margin-top: -25px;
 
 	ul {
 		@include clearfix;
@@ -11,7 +12,7 @@
 	}
 	li {
 	float: left;
-	margin-right: 1em;
+	margin-right: .5em;
 	padding: 0 0.5em;
 	border-bottom: 0.35em solid transparent;
 	&:hover {
