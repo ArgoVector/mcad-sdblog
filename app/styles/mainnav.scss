@@ -1,10 +1,12 @@
 .main-nav {
 	font-weight: 500;
 	font-size: .9em;
+	position: relative;
+	float: right;
+	margin-bottom: 5%;
 
 	ul {
 		@include clearfix;
-		border: 1px solid red;
 		margin: 0;
 		padding: 0;
 		list-style-type: none;

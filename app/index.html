@@ -6,7 +6,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-
+        <link rel="stylesheet" href="font-awesome-4.2.0/css/font-awesome.min.css">
         <!-- build:css styles/vendor.css -->
         <!-- bower:css -->
         <link rel="stylesheet" href="bower_components/normalize.css/normalize.css" />
@@ -24,79 +24,85 @@
         <script>try{Typekit.load();}catch(e){}</script>
     </head>
     <body>
-       <h1>Minneapolis College of Art and Design <span>Sustainable Design Online Program</span></h1>
+       <h1 class="blog-title">Minneapolis College of Art and Design <span>Sustainable Design Online Program</span></h1>
        <div class="subnav">
-       	<ul>
-       		<li><a href="http://mcadsustainabledesign.com/request-information">Request a brochure</a></li>
-       		<li><a href="http://mcad.edu/sustainable">mcad.edu/sustainable</a></li>
-       		<li><a href="http://mcad.edu">MCAD logo</a></li>
-       	</ul>
+       	<ul class="utilitynav">
+            <li class="broch"><a href="http://mcadsustainabledesign.com/request-information">Request a <br> brochure</a></li>
+            <li class="sust"><a href="http://mcad.edu/sustainable">mcad.edu/ <br> sustainable</a></li>
+            <li class="mcad"><a href="http://mcad.edu"><img src="http://mcadsustainabledesign.com/wp-content/themes/theme_sdonew/img/MCAD_logo_black_600px.png" alt="MCAD"></a></li>
+        </ul>
        </div>
-       <nav>
-       	<ul>
-       		<li><a href="#">STUDENTS</a></li>
-       		<li><a href="#">FACULTY</a></li>
-       		<li><a href="#">EVENTS</a></li>
-       		<li><a href="#">ABOUT</a></li>
-       		<li><a href="#">SEARCH</a></li>
-       	</ul>
-       </nav>
-        <div class="innoventre">
-        	<p>Innovation & Entrepreneurship</p>
-        	<p>Nov 9, 2014</p>
-            <h2><a href="#">We Can't Not Do Something</a></h2>
-            <img src="images/cantnot.jpg">
-        </div>
-        <div class="naturalleader">
-        	<p>Natural Leadership</p>
-        	<p>Nov 2, 2014</p>
-            <h2><a href="#">Learning Their Place</a></h2>
-            <img src="images/learningtheirplace.jpg">
-        </div>
-        <div class="naturalleader">
-        	<p>Natural Leadership</p>
-        	<p>Oct 28, 2014</p>
-            <h2><a href="#">AASHE 2014 Highlights: Citizen Muscle</a></h2>
-            <img src="images/citizenmuscle.png">
-        </div>
-        <div class="ecocareers">
-        	<p>Eco-Careers</p>
-        	<p>Oct 27, 2014</p>
-            <h1><a href="#">Webinar: The Hero's Journey</a></h1>
-            <img src="images/herojourney.jpg">
-        </div>
-        <div class="aboutma">
-        	<p>About the MA Program</p>
-        	<p>Oct 22, 2014</p>
-            <h1><a href="#">Tick Tock</a></h1>
-            <img src="images/ticktock.jpg">
-        </div>
-        <div class="biomimicry">
-        	<p>Biomimicry</p>
-        	<p>Sep 16, 2014</p>
-            <h1><a href="#">Biomimicry for the Built Environment</a></h1>
-            <img src="images/biomimicrybuilt.jpg">
-        </div>
-        <div class="greengd">
-        	<p>Green Graphic & Packaging Design</p>
-        	<p>Sep 9, 2014</p>
-            <h1><a href="#">Graphic Deigners and Emerging Sustainability Roles</a></h1>
-            <img src="images/gdsustainabilityroles.jpg">
-        </div>
-        <div class="greenbiz">
-        	<p>Green Biz</p>
-        	<p>Jul 16, 2014</p>
-            <h1><a href="#">Raising the Bar to Restorative</a></h1>
-            <img src="images/raisingthebar.jpg">
+       <nav class="main-nav">
+            <h2 class="visuallyhidden">Main Navigation</h2>
+            <ul>
+                <li><a href="#">STUDENTS</a></li>
+                <li><a href="#">FACULTY</a></li>
+                <li><a href="#">EVENTS</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SEARCH</a></li>
+            </ul>
+        </nav>
+        <div class="container">
+
+
+          <article class="blogpost category-coral block-small">
+            <p class="category">Innovation & Entrepreneurship</p>
+            <p class="postdate">Nov 9, 2014</p>
+            <h2>We Can't Not Do Something</h2>
+            <a href="#"><img src="images/cantnot.jpg"></a>
+          </article>
+          <article class="blogpost category-blue block-large">
+                <p class="category">Natural Leadership</p>
+            <p class="postdate">Nov 2, 2014</p>
+            <h2>Learning Their Place</h2>
+            <a href="#"><img src="images/learningtheirplace.jpg"></a>
+          </article>
+          <article class="blogpost category-blue block-large">
+                <p class="category">Natural Leadership</p>
+            <p class="postdate">Oct 28, 2014</p>
+            <h2>AASHE 2014 Highlights: Citizen Muscle</h2>
+            <a href="#"><img src="images/citizenmuscle.png"></a>
+          </article>
+          <article class="blogpost category-yellow block-medium">
+            <p class="category">Eco-Careers</p>
+            <p class="postdate">Oct 27, 2014</p>
+            <h2>Webinar: The Hero's Journey</h2>
+            <a href="#"><img src="images/herojourney.jpg"></a>
+          </article>
+          <article class="blogpost category-purple block-small">
+            <p class="category">About the MA Program</p>
+            <p class="postdate">Oct 22, 2014</p>
+            <h2>Tick Tock</h2>
+            <a href="#"><img src="images/ticktock.jpg"></a>
+          </article>
+          <article class="blogpost category-pink block-medium">
+            <p class="category">Biomimicry</p>
+            <p class="postdate">Sep 16, 2014</p>
+            <h2>Biomimicry for the Built Environment</h2>
+            <a href="#"><img src="images/biomimicrybuilt.jpg"></a>
+          </article>
+          <article class="blogpost category-red block-large">
+            <p class="category">Green Graphic & Packaging Design</p>
+            <p class="postdate">Sep 9, 2014</p>
+            <h2>Graphic Deigners and Emerging Sustainability Roles</h2>
+            <a href="#"><img src="images/gdsustainabilityroles.jpg"></a>
+          </article>
+          <article class="blogpost category-orange block-large">
+            <p class="category">Green Biz</p>
+            <p class="postdate">Jul 16, 2014</p>
+            <h2>Raising the Bar to Restorative</h2>
+            <a href="#"><img src="images/raisingthebar.jpg"></a>
+          </article>
         </div>
         <footer>
+            <hr>
         	<p>Minneapolis College of Art and Design © 2014</p>
         </footer>
         <ul class="socmedia">
-            <li><a href="https://www.facebook.com/MCAD.SustainableDesign"></a></li>
-            <li><a href="https://twitter.com/MCADSustainDsgn"></a></li>
-            <li><a href="http://www.pinterest.com/mcadsdo/"></a></li>
-            <li><a href="http://www.linkedin.com/groups/MCAD-Sustainable-Design-Program-1945418/about"></a></li>
+            <li><a href="https://www.facebook.com/MCAD.SustainableDesign"><i class="fa fa-facebook"></i></a></li>
+            <li><a href="https://twitter.com/MCADSustainDsgn"><i class="fa fa-twitter"></i></a></li>
+            <li><a href="http://www.pinterest.com/mcadsdo/"><i class="fa fa-pinterest"></i></a></li>
+            <li><a href="http://www.linkedin.com/groups/MCAD-Sustainable-Design-Program-1945418/about"><i class="fa fa-linkedin"></i></a></li>
         </ul>
         <!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
         <script>
