@@ -1,7 +1,10 @@
 .utilitynav {
 	list-style-type:none;
+	position: relative;
+	@include clearfix;
+	margin: 0;
 	li {
-		margin-right: 30px;
+		margin-right: 50px;
 		display: inline-block;
 		line-height: 80%;
 	}
@@ -16,7 +19,16 @@
 		opacity: 1;
 		list-style-type:none;
 	}
+	span {
+		color: $black;
+	}
 }
 .mcad {
-	width: 10%;
+	width: 6em;
+	opacity: .4;
+	padding: 5px;
+	margin-right: 10px;
+}
+.mcad:hover {
+	opacity: 1;
 }
